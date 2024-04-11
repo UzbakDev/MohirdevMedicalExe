@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thousands of doctors  experts to help your health!"
+            android:textSize="40sp"
+            android:fontFamily="@font/urbanis2"
+            android:textStyle="bold"
+            android:textColor="#246BFD"
+            android:gravity="center_horizontal"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </View>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:backgroundTint="#246BFD"
+            android:fontFamily="@font/urbanis2"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
